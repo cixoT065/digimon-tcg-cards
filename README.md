@@ -5,7 +5,8 @@ so the app still shows cards if the sites it normally loads them from go away.
 
 - `cards/<card number>.webp`: the normal printing, for example `cards/BT1-010.webp`
 - `cards/<card number>_<art>.webp`: an alternate art, for example `cards/BT12-070_P4.webp`
-- `missing.txt`: alternate arts listed in the card data that no source hosts (the app shows the normal printing)
+- Alternate arts in the card data that no source hosts yet are listed in the app's `data/missing-arts.json`
+  (the app doesn't offer them; the mirror script retries them each run)
 
 All pictures are 430 × 601 WebP (quality 70) with transparent rounded corners, converted from the official
 English card list (world.digimoncard.com), or from images.digimoncard.io where that has none. Pre-Release
